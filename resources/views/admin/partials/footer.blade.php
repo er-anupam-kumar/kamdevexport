@@ -8,7 +8,7 @@
             </div>
             <div class="col-sm-6">
                 <div class="text-sm-end d-none d-sm-block">
-                    Designed & Developed by {{env('APP_NAME')}}
+                    Designed & Developed by Er. Anupam Kumar
                 </div>
             </div>
         </div>

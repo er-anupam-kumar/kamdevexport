@@ -26,4 +26,7 @@ Route::post('login',[App\Http\Controllers\Auth\LoginController::class, 'login'])
 Route::group(['prefix'=>'admin','middleware'=>['auth','admin']],function(){
     Route::get('/', [App\Http\Controllers\Admin\HomeController::class, 'index'])->name('admin');
     Route::resource('categories', App\Http\Controllers\Admin\CategoryController::class);
+    Route::get('/categories/{id}/delete_image', [App\Http\Controllers\Admin\CategoryController::class, 'destroyImage']);
+    Route::resource('products', App\Http\Controllers\Admin\ProductController::class);
+    Route::get('/products/{id}/delete_image', [App\Http\Controllers\Admin\ProductController::class, 'destroyImage']);
 });

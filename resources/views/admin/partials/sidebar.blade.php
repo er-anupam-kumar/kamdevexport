@@ -30,6 +30,25 @@
                     </ul>
                 </li>
 
+                <li class="{{ request()->is('admin/products*') ? 'mm-active' : '' }}">
+                    <a href="javascript:;" class="has-arrow">
+                        <i data-feather="archive"></i>
+                        <span data-key="t-products">Products</span>
+                    </a>
+                    <ul class="sub-menu" aria-expanded="false">
+                        <li>
+                            <a href="{{url('admin/products')}}">
+                                <span data-key="t-products">All Products</span>
+                            </a>
+                        </li>                      
+                        <li>
+                            <a href="{{url('admin/products/create')}}">
+                                <span data-key="t-addproducts">Add Product</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
             </ul>
         </div>
     </div>

@@ -193,6 +193,8 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         'Validations' => App\CustomClasses\Validations::class,
         'EmailProvider' => App\CustomClasses\EmailProvider::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
     ])->toArray(),
 
 ];
