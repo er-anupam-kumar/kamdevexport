@@ -31,16 +31,16 @@
         <div class="d-flex">
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item bg-white border-start border-end" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-<!--                     <img class="rounded-circle header-profile-user" src="{{asset(Auth::user()->profile_picture??'assets/images/users/avatar-1.jpg')}}" alt="Header Avatar"> -->
+                    <!--                     <img class="rounded-circle header-profile-user" src="{{asset(Auth::user()->profile_picture??'assets/images/users/avatar-1.jpg')}}" alt="Header Avatar"> -->
                     <span class="d-none d-xl-inline-block ms-1 fw-medium">{{Auth::user()->name}}</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
 
                 <div class="dropdown-menu dropdown-menu-end">
-                    <a class="dropdown-item" href="{{url('admin/change-password')}}"><i class="mdi
+                    {{-- <a class="dropdown-item" href="{{url('admin/change-password')}}"><i class="mdi
                         mdi-lock font-size-16 align-middle
                         me-1"></i> Change Password
-                    </a>
+                    </a> --}}
                     <a class="dropdown-item" href="{{url('/logout')}}"><i class="mdi
                         mdi-logout font-size-16 align-middle
                         me-1"></i> Logout
