@@ -15,7 +15,7 @@
 									<div class="slider__content">
 										<p class="slider__content--desc desc1 mb-15"><img class="slider__text--shape__icon" src="{{asset('web/assets/img/icon/text-shape-icon.png')}}" alt="text-shape-icon"> New Collection</p> 
 										<h2 class="slider__content--maintitle h1">The Great Fashion <br>
-										Collection 2022</h2>
+										Collection 2023</h2>
 										<p class="slider__content--desc desc2 d-sm-2-none mb-40">Up To 40% Off Final Sale Items. <br>
 										Caught in the Moment!</p>    
 										<a class="slider__btn primary__btn" href="{{url('/')}}">Show Collection
@@ -39,7 +39,7 @@
 									<div class="slider__content">
 										<p class="slider__content--desc desc1 mb-15"><img class="slider__text--shape__icon" src="{{asset('web/assets/img/icon/text-shape-icon.png')}}" alt="text-shape-icon"> New Collection</p> 
 										<h2 class="slider__content--maintitle h1">The Great Fashion <br>
-										Collection 2022</h2>
+										Collection 2023</h2>
 										<p class="slider__content--desc desc2 d-sm-2-none mb-40 ">Up To 40% Off Final Sale Items. <br>
 										Caught in the Moment!</p>    
 										<a class="primary__btn slider__btn" href="{{url('/')}}">Show Collection
@@ -63,7 +63,7 @@
 									<div class="slider__content text-center">
 										<p class="slider__content--desc desc1 mb-15"><img class="slider__text--shape__icon" src="{{asset('web/assets/img/icon/text-shape-icon.png')}}" alt="text-shape-icon"> New Collection</p> 
 										<h2 class="slider__content--maintitle h1">The Great Fashion <br>
-										Collection 2022</h2>
+										Collection 2023</h2>
 										<p class="slider__content--desc desc2 d-sm-2-none mb-40">Up To 40% Off Final Sale Items. <br>
 										Caught in the Moment!</p>    
 										<a class="primary__btn slider__btn" href="{{url('/')}}">Show Collection
@@ -2876,7 +2876,7 @@
 						<span class="deals__banner--content__subtitle text__secondary">Hurry up and Get 25% Discount</span>
 						<h2 class="deals__banner--content__maintitle">Deals Of The Day</h2>
 						<p class="deals__banner--content__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore </p>
-						<div class="deals__banner--countdown d-flex" data-countdown="Sep 30, 2022 00:00:00"></div>
+						<div class="deals__banner--countdown d-flex" data-countdown="Sep 30, 2023 00:00:00"></div>
 						<a class="primary__btn" href="{{url('/')}}">Show Collection
 							<svg class="primary__btn--arrow__icon" xmlns="http://www.w3.org/2000/svg" width="20.2" height="12.2" viewBox="0 0 6.2 6.2">
 								<path d="M7.1,4l-.546.546L8.716,6.713H4v.775H8.716L6.554,9.654,7.1,10.2,9.233,8.067,10.2,7.1Z" transform="translate(-4 -4)" fill="currentColor"></path>

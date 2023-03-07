@@ -139,7 +139,7 @@
             </div>
         </div>
         <div class="footer__bottom d-flex justify-content-between align-items-center">
-            <p class="copyright__content text-ofwhite m-0">Copyright © 2022 <a class="copyright__content--link" href="{{url('/')}}">{{env('APP_NAME')}}</a> . All Rights Reserved.</p>
+            <p class="copyright__content text-ofwhite m-0">Copyright © {{date('Y')}} <a class="copyright__content--link" href="{{url('/')}}">{{env('APP_NAME')}}</a> . All Rights Reserved.</p>
             <div class="footer__payment text-right">
                 <img class="display-block" src="{{asset('web/assets/img/other/payment-visa-card.png')}}" alt="visa-card">
             </div>
