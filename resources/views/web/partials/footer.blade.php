@@ -61,12 +61,11 @@
                         </button>
                     </h2>
                     <ul class="footer__widget--menu footer__widget--inner">
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}">My Account</a></li>
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}">Shopping Cart</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/my-account')}}">My Account</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/cart')}}">Shopping Cart</a></li>
                         <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}">Login</a></li>
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}">Register</a></li>
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}l">Checkout</a></li>
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}l">Wishlist</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/checkout')}}">Checkout</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/wishlist')}}">Wishlist</a></li>
                     </ul>
                 </div>
                 <div class="footer__widget">
@@ -78,9 +77,10 @@
                         </button>
                     </h2>
                     <ul class="footer__widget--menu footer__widget--inner">
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}">About Us</a></li>
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}">Contact Us</a></li>
-                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/')}}">Privacy Policy</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/about-us')}}">About Us</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/contact-us')}}">Contact Us</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/privacy-policy')}}">Privacy Policy</a></li>
+                        <li class="footer__widget--menu__list"><a class="footer__widget--menu__text" href="{{url('/terms-and-conditions')}}">Terms & Conditions</a></li>
                     </ul>
                 </div>
             </div>

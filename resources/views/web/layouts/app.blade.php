@@ -18,9 +18,7 @@
 <body>
     @include('web.partials.preloader')
     @include('web.partials.header')
-    <main class="main__content_wrapper">
-        @yield('content')
-    </main>
+    @yield('content')
     @include('web.partials.footer')
     @include('web.partials.quick_view')
     @include('web.partials.news_letter')

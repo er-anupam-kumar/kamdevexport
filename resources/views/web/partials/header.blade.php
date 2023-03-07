@@ -61,13 +61,13 @@
                 <div class="header__account header__sticky--none">
                     <ul class="d-flex">
                         <li class="header__account--items">
-                            <a class="header__account--btn" href="{{url('/')}}">
+                            <a class="header__account--btn" href="{{url('/my-account')}}">
                                 <svg xmlns="http://www.w3.org/2000/svg"  width="26.51" height="23.443" viewBox="0 0 512 512"><path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg> 
                                 <span class="header__account--btn__text">My Account</span>
                             </a>
                         </li>
                         <li class="header__account--items d-none d-lg-block">
-                            <a class="header__account--btn" href="{{url('/')}}">
+                            <a class="header__account--btn" href="{{url('/wishlist')}}">
                                 <svg  xmlns="http://www.w3.org/2000/svg" width="28.51" height="23.443" viewBox="0 0 512 512"><path d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path></svg>
                                 <span class="header__account--btn__text"> Wish List</span>
                                 <span class="items__count wishlist">02</span> 
@@ -98,14 +98,14 @@
                             </a>
                         </li>
                         <li class="header__menu--items mega__menu--items style2">
-                            <a class="header__menu--link" href="{{url('/')}}">Shop 
+                            <a class="header__menu--link" href="{{url('/shop')}}">Shop 
                             </a>
                         </li>
                         <li class="header__menu--items style2">
-                            <a class="header__menu--link" href="{{url('/')}}">About US </a>  
+                            <a class="header__menu--link" href="{{url('/about-us')}}">About US </a>  
                         </li>
                         <li class="header__menu--items style2">
-                            <a class="header__menu--link " href="{{url('/')}}">Contact </a>  
+                            <a class="header__menu--link " href="{{url('/contact-us')}}">Contact </a>  
                         </li>
                     </ul>
                 </nav>
@@ -119,7 +119,7 @@
                         </a>
                     </li>
                     <li class="header__account--items header__account2--items">
-                        <a class="header__account--btn" href="{{url('/')}}">
+                        <a class="header__account--btn" href="{{url('/my-account')}}">
                             <svg xmlns="http://www.w3.org/2000/svg"  width="26.51" height="23.443" viewBox="0 0 512 512"><path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>
                             <span class="visually-hidden">My Account</span>
                         </a>
@@ -160,17 +160,14 @@
                             </a>
                         </li>
                         <li class="header__menu--items mega__menu--items">
-                            <a class="header__menu--link" href="{{url('/')}}">Shop 
+                            <a class="header__menu--link" href="{{url('/shop')}}">Shop 
                             </a>
                         </li>
                         <li class="header__menu--items">
-                            <a class="header__menu--link" href="{{url('/')}}">About US </a>  
-                        </li>
-                        <li class="header__menu--items d-none d-xl-block">
-                            <a class="header__menu--link" href="{{url('/')}}">Categories </a>  
+                            <a class="header__menu--link" href="{{url('/about-us')}}">About US </a>  
                         </li>
                         <li class="header__menu--items">
-                            <a class="header__menu--link" href="{{url('/')}}">Contact </a>  
+                            <a class="header__menu--link" href="{{url('/contact-us')}}">Contact </a>  
                         </li>
                     </ul>
                 </nav>
@@ -195,13 +192,13 @@
                     <a class="offcanvas__menu_item" href="{{url('/')}}">Home</a>
                 </li>
                 <li class="offcanvas__menu_li">
-                    <a class="offcanvas__menu_item" href="#">Shop</a>
+                    <a class="offcanvas__menu_item" href="{{url('/shop')}}">Shop</a>
                 </li>
-                <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="{{url('/')}}">About</a></li>
-                <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="{{url('/')}}">Contact</a></li>
+                <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="{{url('/about-us')}}">About</a></li>
+                <li class="offcanvas__menu_li"><a class="offcanvas__menu_item" href="{{url('/contact-us')}}">Contact</a></li>
             </ul>
             <div class="offcanvas__account--items">
-                <a class="offcanvas__account--items__btn d-flex align-items-center" href="{{url('/')}}">
+                <a class="offcanvas__account--items__btn d-flex align-items-center" href="{{url('/login')}}">
                     <span class="offcanvas__account--items__icon"> 
                         <svg xmlns="http://www.w3.org/2000/svg"  width="20.51" height="19.443" viewBox="0 0 512 512"><path d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg> 
                     </span>
@@ -239,7 +236,7 @@
             </a>
         </li>
         <li class="offcanvas__stikcy--toolbar__list">
-            <a class="offcanvas__stikcy--toolbar__btn" href="{{url('/')}}">
+            <a class="offcanvas__stikcy--toolbar__btn" href="{{url('/shop')}}">
                 <span class="offcanvas__stikcy--toolbar__icon"> 
                     <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="18.51" height="17.443" viewBox="0 0 448 512"><path d="M416 32H32A32 32 0 0 0 0 64v384a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V64a32 32 0 0 0-32-32zm-16 48v152H248V80zm-200 0v152H48V80zM48 432V280h152v152zm200 0V280h152v152z"></path></svg>
                 </span>
@@ -266,7 +263,7 @@
             </a>
         </li>
         <li class="offcanvas__stikcy--toolbar__list">
-            <a class="offcanvas__stikcy--toolbar__btn" href="{{url('/')}}">
+            <a class="offcanvas__stikcy--toolbar__btn" href="{{url('/wishlist')}}">
                 <span class="offcanvas__stikcy--toolbar__icon"> 
                     <svg xmlns="http://www.w3.org/2000/svg" width="18.541" height="15.557" viewBox="0 0 18.541 15.557">
                         <path  d="M71.775,135.51a5.153,5.153,0,0,1,1.267-1.524,4.986,4.986,0,0,1,6.584.358,4.728,4.728,0,0,1,1.174,4.914,10.458,10.458,0,0,1-2.132,3.808,22.591,22.591,0,0,1-5.4,4.558c-.445.282-.9.549-1.356.812a.306.306,0,0,1-.254.013,25.491,25.491,0,0,1-6.279-4.8,11.648,11.648,0,0,1-2.52-4.009,4.957,4.957,0,0,1,.028-3.787,4.629,4.629,0,0,1,3.744-2.863,4.782,4.782,0,0,1,5.086,2.447c.013.019.025.034.057.076Z" transform="translate(-62.498 -132.915)" fill="currentColor"/>
@@ -354,8 +351,8 @@
         <label class="minicart__conditions--label" for="accept">I agree with the <a class="minicart__conditions--link" href="{{url('/')}}">Privacy and Policy</a></label>
     </div>
     <div class="minicart__button d-flex justify-content-center">
-        <a class="primary__btn minicart__button--link" href="{{url('/')}}">View cart</a>
-        <a class="primary__btn minicart__button--link" href="{{url('/')}}">Checkout</a>
+        <a class="primary__btn minicart__button--link" href="{{url('/cart')}}">View cart</a>
+        <a class="primary__btn minicart__button--link" href="{{url('/checkout')}}">Checkout</a>
     </div>
 </div>
 <!-- End offCanvas minicart -->

@@ -128,6 +128,10 @@ class HomeController extends Controller
     {
         return view('web.about_us.index');
     }
+    public function contact_us()
+    {
+        return view('web.contact_us.index');
+    }
     public function cart()
     {
         return view('web.cart.index');
@@ -139,5 +143,13 @@ class HomeController extends Controller
     public function terms_and_conditions()
     {
         return view('web.terms_and_conditions.index');
+    }
+    public function my_account()
+    {
+        return view('web.my_account.index');
+    }
+    public function wishlist()
+    {
+        return view('web.wishlist.index');
     }
 }
