@@ -1,3 +1,4 @@
+
 <?php
 
 use Illuminate\Support\Facades\Route;
@@ -13,10 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Auth Routes
-Route::get('/', function () {
-    return redirect('/login');
-});
+// Web Routes
+Route::get('/',[App\Http\Controllers\Web\HomeController::class, 'index'])->name('home');
+Route::get('/shop',[App\Http\Controllers\Web\HomeController::class, 'shop'])->name('shop');
+Route::get('/product/{slug}',[App\Http\Controllers\Web\HomeController::class, 'product'])->name('product');
+Route::get('/cart',[App\Http\Controllers\Web\HomeController::class, 'cart'])->name('cart');
+Route::get('/checkout',[App\Http\Controllers\Web\HomeController::class, 'checkout'])->name('checkout');
+Route::get('/about-us',[App\Http\Controllers\Web\HomeController::class, 'about_us'])->name('about-us');
+Route::get('/privacy-policy',[App\Http\Controllers\Web\HomeController::class, 'privacy_policy'])->name('privacy-policy');
+Route::get('/terms-and-conditions',[App\Http\Controllers\Web\HomeController::class, 'terms_and_conditions'])->name('terms-and-conditions');
+Route::post('actions',[App\Http\Controllers\Web\ActionController::class, 'actions']);
+// Auth Routes
 
 Route::get('login',[App\Http\Controllers\Auth\LoginController::class, 'index'])->name('login');
 Route::get('logout',[App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
